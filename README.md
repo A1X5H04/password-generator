@@ -13,3 +13,7 @@ This is my first Javascript project, a dynamic password generator written in van
 
 ![ScreenShot
 ](https://github.com/I74XH1/password-generator/blob/main/image.png)
+
+# Usage
+
+Use it from here - https://i74xh1.github.io/password-generator/
