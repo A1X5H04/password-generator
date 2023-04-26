@@ -97,7 +97,7 @@ passField2.addEventListener('click', () => {
 
 
 passSlider.oninput = function() {
-   sliderValue.textContent = "Length : " + this.value;
+   sliderValue.textContent = this.value;
 }
 
 
