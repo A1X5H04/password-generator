@@ -22,9 +22,12 @@
 
             <div class="passgen_container">
               <div class="passfield--container">
-                <div class="passfield" id="field_one" title="Copy to Clipboard"></div>
-                <div class="passfield" id="field_two" title="Copy to Clipboard"></div>
-            </div>
+                <div class="passfield"  title="Copy to Clipboard">
+                    <span class="field" id="field_one"></span>
+                </div>
+                <div class="passfield"  title="Copy to Clipboard">
+                    <span class="field" id="field_two"></span>
+                </div>
 
             <div class="settings-scr-hide" id="setting_scr">
               <div class="setting-header">
@@ -35,7 +38,7 @@
                 <div class="sec-passlen">
                   <h4>Set Password Length</h4>
                   <div class="slider-cont">
-                    <p id="slider_value" >Length : 16</p>
+                    <p>Length : <span id="slider_value">16</span></p>
                     <input id="passlen_slider" type="range" min="8" max="128" value="16">
                   </div>
                   
