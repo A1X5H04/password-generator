@@ -16,4 +16,4 @@ This is my first Javascript project, a dynamic password generator written in van
 
 # Usage
 
-Use it from here - https://i74xh1.github.io/password-generator/
+Use it from here - https://a1x5h04.github.io/password-generator/
