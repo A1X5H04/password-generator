@@ -10,7 +10,10 @@ const characters = {
 let randomCharacter;
 const passField1 = document.getElementById("field_one");
 const passField2 = document.getElementById("field_two");
+const copyIcon1 = document.getElementById("copy_one");
+const copyIcon2 = document.getElementById("copy_two");
 const generateBtn = document.getElementById("gen_btn");
+const notificationModal = document.getElementById("noti-modal"); 
 const passSlider = document.getElementById("passlen_slider");
 const sliderValue = document.getElementById("slider_value");
 const settingBtn = document.getElementById("setting_btn");
@@ -84,15 +87,20 @@ function getRandomPassword() {
 
 
 
-passField1.addEventListener('click', () => {
+copyIcon1.addEventListener('click', () => {
       navigator.clipboard.writeText(passField1.textContent);
-      alert(passField1.textContent + " Copied");
+      notificationModal.style.display = 'block';
+      setTimeout(() => {
+          notificationModal.style.display = 'none';
+      }, 4500)
 })
 
-
-passField2.addEventListener('click', () => {
+copyIcon2.addEventListener('click', () => {
       navigator.clipboard.writeText(passField2.textContent);
-      alert(passField2.textContent + " Copied");
+      notificationModal.style.display = 'block';
+      setTimeout(() => {
+          notificationModal.style.display = 'none';
+      }, 4500)
 })
 
 
